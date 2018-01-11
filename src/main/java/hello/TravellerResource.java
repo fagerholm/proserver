@@ -174,7 +174,7 @@ public class TravellerResource {
         gjester.add(new Gjest("Shilpi J.", "Tomar", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kaare));
         gjester.add(new Gjest("Radha", "Rajagopalan", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kaare));
         gjester.add(new Gjest("Marte", "Jørgensen", Transport.BIL, Aktivitetsdeltagelse.JA, kaare));
-        gjester.add(new Gjest("Unni", "Vørrang", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kaare)))
+        gjester.add(new Gjest("Unni", "Vørrang", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, kaare));
 
         // Sov 1
         gjester.add(new Gjest("Aleksander", "Nybakk", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, sov1));
