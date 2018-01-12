@@ -155,9 +155,9 @@ public class TravellerResource {
         gjester.add(new Gjest("Knut Erik", "Berg", Transport.BIL, Aktivitetsdeltagelse.KANSKJE, ingrid));
 
         // Sigurd
-        gjester.add(new Gjest("Rune A.", "Magnusson", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, sigurd));
+        gjester.add(new Gjest("Rune A.", "Magnusson", Transport.BIL, Aktivitetsdeltagelse.KANSKJE, sigurd));
         gjester.add(new Gjest("Martin", "Eskerud", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, sigurd));
-        gjester.add(new Gjest("Magne", "Nordås", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, sigurd));
+        gjester.add(new Gjest("Magne", "Nordås", Transport.BIL, Aktivitetsdeltagelse.KANSKJE, sigurd));
 
         // Hallgeir
         gjester.add(new Gjest("Ingleiv", "Johansen", Transport.BUSS_SEN, Aktivitetsdeltagelse.NEI, hallgeir));
@@ -166,7 +166,7 @@ public class TravellerResource {
 
         // Elling
         gjester.add(new Gjest("Greger Siem", "Knudsen", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, elling));
-        gjester.add(new Gjest("Andreas", "Næss", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.NEI, elling));
+        gjester.add(new Gjest("Andreas", "Næss", Transport.BIL, Aktivitetsdeltagelse.NEI, elling));
         gjester.add(new Gjest("Shahariar K.", "Bhuiyan", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, elling));
         gjester.add(new Gjest("Anders", "Kolstad", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, elling));
 
@@ -183,7 +183,6 @@ public class TravellerResource {
 
         // Sov 2
         gjester.add(new Gjest("Jan Frode", "Langtangen", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, sov2));
-        gjester.add(new Gjest("Tor André", "Roland", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, sov2));
 
         // Sov 3
         gjester.add(new Gjest("Hulda", "Seterås Fadnes", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, sov3));
@@ -196,9 +195,8 @@ public class TravellerResource {
         gjester.add(new Gjest("Thea", "Udnes", Transport.BUSS_SEN, Aktivitetsdeltagelse.JA, sov4));
 
         // Sov 5
-        gjester.add(new Gjest("Irene", "Mønnesland", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, sov5));
+        gjester.add(new Gjest("Irene", "Mønnesland", Transport.BIL, Aktivitetsdeltagelse.KANSKJE, sov5));
         gjester.add(new Gjest("Shkurte", "Olluri", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, sov5));
-        gjester.add(new Gjest("Agne", "Hesten", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, sov5));
 
         // Sov 6
         gjester.add(new Gjest("Pia", "Lindstrøm", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, sov6));
@@ -214,9 +212,8 @@ public class TravellerResource {
 
         // Knetta
         gjester.add(new Gjest("Gry", "Skårbø", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, knetta));
-        gjester.add(new Gjest("Ekaterina", "Orlova", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.KANSKJE, knetta));
+        gjester.add(new Gjest("Ekaterina", "Orlova", Transport.BUSS_SEN, Aktivitetsdeltagelse.KANSKJE, knetta));
         gjester.add(new Gjest("Nina", "Kylstad", Transport.BIL, Aktivitetsdeltagelse.KANSKJE, knetta));
-        gjester.add(new Gjest("Kossovare", "Olluri", Transport.BUSS_SEN, Aktivitetsdeltagelse.NEI, knetta));
 
         // Ugla
         gjester.add(new Gjest("Jon André", "Fagerholm", Transport.BUSS_TIDLIG, Aktivitetsdeltagelse.JA, ugla));
